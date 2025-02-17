@@ -36,13 +36,13 @@ async def subscribe(app, message):
       try:
          user = await app.get_chat_member(update_channel, message.from_user.id)
          if user.status == "kicked":
-            await message.reply_text("You are Banned. Contact -- @Kingofmarket03")
+            await message.reply_text("You are Banned. Contact -- @Adityaseller02")
             return 1
       except UserNotParticipant:
-         await message.reply_photo(photo="https://files.catbox.moe/lwd4k1.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
+         await message.reply_photo(photo="https://ibb.co/XZ062qxz",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
          return 1
       except Exception:
-         await message.reply_text("Something Went Wrong. Contact us @Kingofmarket03...")
+         await message.reply_text("Something Went Wrong. Contact us @Adityaseller02...")
          return 1
 
 
@@ -90,7 +90,7 @@ PROGRESS_BAR = """\n
 │ **__Speed:__** {3}/s
 │ **__ETA:__** {4}
 ╰─────────────────────╯
-Made by @Kingofmarket03
+Made by @Adityaseller02
 """
 
 
@@ -278,7 +278,7 @@ async def progress_callback(current, total, progress_message):
     f"│ **__Progress:__** {percent:.2f}%\n"
     f"│ **__Uploaded:__** {current_mb:.2f} MB / {total_mb:.2f} MB\n"
     f"╰──────────────────╯\n\n"
-    f"**__Powered by @Kingofmarket03__**"
+    f"**__Powered by @Adityaseller02__**"
         )
         
         last_update_time = current_time
