@@ -747,7 +747,7 @@ async def callback_query_handler(event):
             [Button.inline(f"Pyrogram v2{pyrogram_check}", b'pyrogram')],
             [Button.inline(f"SpyLib v1 ⚡{telethon_check}", b'telethon')]
         ]
-        await event.edit("Choose your preferred upload method:\n\n__**Note:** **SpyLib ⚡**, built on Telethon(base), by @Kingofmarket03 still in beta.__", buttons=buttons)
+        await event.edit("Choose your preferred upload method:\n\n__**Note:** **SpyLib ⚡**, built on Telethon(base), by @Adityaseller02 still in beta.__", buttons=buttons)
 
     elif event.data == b'pyrogram':
         save_user_upload_method(user_id, "Pyrogram")
@@ -969,7 +969,7 @@ def progress_callback(done, total, user_id):
         f"│ **__Speed:__** {speed_mbps:.2f} Mbps\n"
         f"│ **__ETA:__** {remaining_time_min:.2f} min\n"
         f"╰──────────────────╯\n\n"
-        f"**__Powered by @Kingofmarket03__**"
+        f"**__Powered by @Adityaseller02__**"
     )
     
     # Update tracking variables for the user
