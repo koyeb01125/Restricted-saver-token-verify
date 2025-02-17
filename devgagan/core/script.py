@@ -3,8 +3,8 @@
 # ------------------------------------------------------------ #
 
 START_TXT = """
-Hi, I am a developer ..welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. First login in bot by /login then send post link.
-For any error contact me at @Kingofmarket03"""
+Hi, I am ADITYA developer ..welcome to Advance Content Saver Bot, designed to save restricted messages from public/private channels and private groups. First login in bot by /login then send post link.
+For any error contact me at @Adityaseller02"""
 
 FORCE_MSG = """
 Hey {},
